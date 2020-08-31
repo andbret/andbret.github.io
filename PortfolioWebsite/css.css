@@ -1,0 +1,155 @@
+
+@font-face {
+    font-family: Gotham_Book;
+    src: url("Gotham-Book.oft") format("opentype");
+ }
+ @font-face {
+    font-family: Gotham_Black;
+    src: url("Gotham-Black.otf") format("opentype");
+ }
+ .navbar {
+    /* overflow: hidden; */
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+.test{
+    height: 90vh;
+    position: fixed;
+}
+
+.invisibleblock {
+  
+
+margin-top: 98vh;
+  }
+
+img {
+    border-radius: 8px;
+margin-top: 12px;
+margin-bottom: 12px;
+  }
+
+  /* body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  
+
+   } */
+
+
+main{
+ 
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter h1 {
+      
+    position: fixed;
+    bottom: 40%;
+    font-size: 8vw;
+    color: rgb(22, 22, 22);
+    /* font-family: monospace; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border-right: .15em solid orange;  */
+    /* The typwriter cursor */
+    white-space: nowrap; 
+    /* Keeps the content on a single line */
+    margin: 0 left; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em;  */
+    animation: 
+      typing 2s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+
+  }
+    .fourth-text {
+        top: 60%;
+        font-size: 20px;
+        position: fixed;
+        opacity: 0;
+        color: #1a1a1a;
+        animation-name: fadeIn;
+        animation-delay: 1.5s;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        /* , step-end infinite ; */
+      }
+
+    h2{
+        top: 86%;
+        font-size: 16px;
+        margin: auto;
+        width: 97.5%;
+        text-align: center;
+        position: fixed;
+        opacity: 0;
+        color: #1a1a1a;
+        animation-name: fadeIn;
+        animation-delay: 1.5s;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+
+        /* width: 97.5%; */
+    }
+
+    svg{
+        bottom: 4%;
+        position: fixed;
+            /* display: flex; */
+            margin: auto;
+            width: 97.5%;
+            opacity: 0;
+            animation-name: fadeIn;
+            animation-delay: 1.5s;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+
+
+
+
+
+
+
+          
+}
+
+/* #portfolio {
+  
+  } */
+.shadow{
+  box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.2), 20px 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.background {
+    max-width: 100%;
+    height: auto;
+  background-image: url('background.jpg');
+}
+
