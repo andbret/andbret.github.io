@@ -1,4 +1,4 @@
-
+/* fonts */
 @font-face {
   font-family: gotham-book;
   src: url("../fonts/gotham-book.oft") format("opentype"),
@@ -11,46 +11,44 @@
   url("../fonts/gotham-black.woff") format("woff"), /* Modern Browsers */
   url("../fonts/gotham-black.ttf")  format("truetype"); /* Safari, Android, iOS */
 }
+/* style for nav bar */
  .navbar {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
   }
-
-.test{
+/* puts animated text in the proper position */
+.position{
     height: 90vh;
     position: fixed;
 }
-
+/* pushes the portfolio section to the bottom */
 .invisibleblock {
 margin-top: 98vh;
   }
-
+/* portfolio image styling */
 img {
 border-radius: 8px;
 margin-top: 12px;
 margin-bottom: 12px;
   }
 
+/* unused background image for future use */
   /* body {
     background-image: url("background.jpg");
     background-size: cover;
     background-attachment: fixed;
-  
-
    } */
-
-
+/* sets the background color and position for the portfolio */
 main{
  
     background-color: rgb(255, 255, 255);
     position: relative;
 }
 
-
-  
-  /* DEMO-SPECIFIC STYLES */
+/* animates the opening text */
+/* code was taken from here https://css-tricks.com/snippets/css/typewriter-effect/ */
   .typewriter h1 {
       
     position: fixed;
@@ -66,9 +64,11 @@ main{
       blink-caret .5s step-end infinite;
   }
   
-
+p {
+max-width: 800px;
+}
   
-  /* The typing effect */
+/* The typing effect */
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }
@@ -84,7 +84,8 @@ main{
     }
 
   }
-    .fourth-text {
+  /* fading text */
+    .fade-text {
         top: 48%;
         font-size: 20px;
         position: fixed;
@@ -123,7 +124,7 @@ main{
             animation-duration: 1s;
             animation-fill-mode: forwards;   
 }
-
+/* sets the shadow for the main section */
 .shadow{
   box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.2), 20px 20px 20px 0 rgba(0, 0, 0, 0.19);
 }
