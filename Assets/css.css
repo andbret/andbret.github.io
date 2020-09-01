@@ -2,10 +2,14 @@
 @font-face {
     font-family: Gotham_Book;
     src: url("Gotham-Book.oft") format("opentype");
+    src: url("Gotham-Book.woff") format("woff"); /* Modern Browsers */
+    src: url("Gotham-Book.ttf")  format("truetype"); /* Safari, Android, iOS */
  }
  @font-face {
     font-family: Gotham_Black;
     src: url("Gotham-Black.otf") format("opentype");
+    src: url("Gotham-Black.woff") format("woff"); /* Modern Browsers */
+    src: url("Gotham-Black.ttf")  format("truetype"); /* Safari, Android, iOS */
  }
  .navbar {
     position: fixed;
@@ -50,7 +54,7 @@ main{
   .typewriter h1 {
       
     position: fixed;
-    bottom: 40%;
+    bottom: 50%;
     font-size: 8vw;
     color: rgb(22, 22, 22);
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -81,7 +85,7 @@ main{
 
   }
     .fourth-text {
-        top: 60%;
+        top: 48%;
         font-size: 20px;
         position: fixed;
         opacity: 0;
@@ -93,7 +97,7 @@ main{
       }
 
     h2{
-        top: 86%;
+        bottom: 12%;
         font-size: 16px;
         margin: auto;
         width: 97.5%;
