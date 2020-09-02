@@ -20,7 +20,7 @@
   }
 /* puts animated text in the proper position */
 .position{
-    height: 90vh;
+    height: 100vh;
     position: fixed;
 }
 /* pushes the portfolio section to the bottom */
